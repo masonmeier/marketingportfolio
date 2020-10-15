@@ -13,10 +13,10 @@ const database = {
     freelanceStatus: 'Available',
     socialLinks: {
       facebook: 'https://www.facebook.com/mason.meier.7',
-      twitter: 'https://twitter.com/Omnidingus',
+      twitter: '',
       pinterest: '',
       behance: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/mason-meier-30a7b2178/',
       dribbble: '',
       github: 'https://github.com/masonmeier'
     },
