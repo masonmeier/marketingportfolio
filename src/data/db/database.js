@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Mason Meier',
-    aboutContent: "I am a recently self taught full stack developer. I can provide clean code, hosting and database management. I can also generate custom graphics for interactive sites and applications.",
+    aboutContent: "I am a self taught full stack developer. I can provide clean code, hosting and database management. I can also generate custom graphics for interactive sites and applications.",
     age: 25,
     phone: '916-812-7103',
     nationality: 'American',
