@@ -302,13 +302,13 @@ const database = {
         year: "2017-2020",
         position: "Marketing Director",
         company: "Fitguard Inc.",
-        details: "Established a regional monopoly over all Northern California territories by establishing and leveraging client relationships and creating cyclical growth practices. " +
+        details: "Established a regional monopoly over all Northern California territories by building and leveraging client relationships and creating cyclical growth practices. " +
           "Secured long term state and federal level government contracts. Worked directly with Fortune 500 companies. Generated an expansive network of contacts throughout multiple" +
           " sectors of California's industries."
       },
       {
         id: 2,
-        year: "2015 - 2018",
+        year: "2014 - 2017",
         position: "Installation Team Lead",
         company: "Fitguard Inc.",
         details: "Organized and managed multiple sets of on site machine installation teams. Handled all customer facing interactions for both the installation teams and sales representatives."
