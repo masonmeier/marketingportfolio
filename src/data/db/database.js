@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Mason Meier',
-    aboutContent: "I am a self taught full stack developer. I can provide clean code, hosting and database management. I can also generate custom graphics for interactive sites and applications.",
+    aboutContent: "I am a full stack developer. I can provide clean code, secure hosting and database management.",
     age: 25,
     phone: '916-812-7103',
     nationality: 'American',
@@ -12,7 +12,7 @@ const database = {
     address: '2609 Stonecreek Drive #16 Sacramento, CA 95833',
     freelanceStatus: 'Available',
     socialLinks: {
-      facebook: 'https://www.facebook.com/mason.meier.7',
+      facebook: '',
       twitter: '',
       pinterest: '',
       behance: '',
@@ -123,14 +123,13 @@ const database = {
     {
       id: 2,
       title: "Fitguard Inc",
-      subtitle: "This project is still in progress. " +
-        "Link is not yet available.",
+      subtitle: "A proposed landing page put together for Fitguard Inc.",
       imageUrl: "/images/portfolio-image-4.jpg",
       largeImageUrl: [
         "/images/portfolio-image-4-lrg.jpg",
         "/images/portfolio-image-4-lrg.jpg"
       ],
-      url: ''
+      url: 'http://fitguard.us'
     },
     // {
     //   id: 3,
