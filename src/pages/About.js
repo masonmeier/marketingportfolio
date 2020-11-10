@@ -82,8 +82,8 @@ function About() {
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  I am a full stack web developer with a background in strategic business development. When I am not coding
-                  you will find me playing with my dog, traveling with my wife or obsessing over all things sci-fi.
+                  I am a marketing manager with extensive experience in partnership development and retooling existing business practices to increase customer conversion rates.
+                  I am a trained full-stack software developer and can produce graphics, websites and training tools to assist in growing your business.
                 </p>
                 <ul>
                   {!information.name ? null : (

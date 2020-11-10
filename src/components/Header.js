@@ -35,6 +35,7 @@ function Header(){
                     <li><NavLink to="/about"><span>About</span></NavLink></li>
                     <li><NavLink to="/resume"><span>Resume</span></NavLink></li>
                     <li><NavLink to="/portfolios"><span>Portfolio</span></NavLink></li>
+                    <li><NavLink to="/clients"><span>Recent Clients</span></NavLink></li>
                 </ul>
             </div>
         </nav>

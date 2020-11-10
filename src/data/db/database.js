@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Mason Meier',
-    aboutContent: "I am a full stack developer. I can provide clean code, secure hosting and database management.",
+    aboutContent: "I am a marketing manager. I can provide targeted growth campaigns, comprehensive business practice analysis and excellent customer conversion rates.",
     age: 25,
     phone: '916-812-7103',
     nationality: 'American',
@@ -27,9 +27,9 @@ const database = {
   },
   services: [
     {
-      title: "Web Design",
-      icon: 'color-pallet',
-      details: "I can provide both front end design and functionality utilizing HTML, CSS, Photoshop and a plethora of other design tools."
+      title: "Client Interaction",
+      icon: 'briefcase',
+      details: "I can provide targeted client interactions and develop partnerships to grow your business."
     },
     {
       title: "Web Development",
@@ -37,9 +37,9 @@ const database = {
       details: "I can create and manage application functionality utilising Javascript and React."
     },
     {
-      title: "Mobile First Design",
-      icon: 'mobile',
-      details: "I have a firm understanding of mobile first design and can generate applications that will function on any screen size."
+      title: "Business Modernization",
+      icon: 'browser',
+      details: "I can produce applications to both increase day to day productivity and increase client interaction with clean, easy to use applications."
     }
   ],
   reviews: [
@@ -70,6 +70,26 @@ const database = {
   ],
   skills: [
     {
+      title: "Marketing/Sales",
+      value: 100
+    },
+    {
+      title: "Partnership Development",
+      value: 100
+    },
+    {
+      title: "Market Research",
+      value: 100
+    },
+    {
+      title: "Professional Branding",
+      value: 90
+    },
+    {
+      title: "Cost/Benefit Analysis",
+      value: 80
+    },
+    {
       title: "HTML5",
       value: 90
     },
@@ -98,16 +118,20 @@ const database = {
       value: 60
     },
     {
-      title: "Research and Analysis",
-      value: 80
-    },
-    {
       title: "Photoshop",
       value: 65
     },
     {
-      title: "Marketing Strategies",
-      value: 80
+      title: "Linux",
+      value: 70
+    },
+    {
+      title: "MySQL",
+      value: 70
+    },
+    {
+      title: "Redux",
+      value: 70
     },
   ],
   portfolios: [
@@ -335,8 +359,8 @@ const database = {
   blogs: [
     {
       id: 1,
-      title: 'Markdown & Html supported blog.',
-      featuredImage: '/images/blog-image-1.jpg',
+      title: 'National Football League',
+      featuredImage: '/images/NFL.png',
       filesource: '../../blog/markdown-html-supported-blog.md',
       createDay: "20",
       createMonth: 'February',
@@ -344,8 +368,8 @@ const database = {
     },
     {
       id: 2,
-      title: 'Installing NodeJS on your device.',
-      featuredImage: '/images/blog-image-2.jpg',
+      title: 'National Basketball Association',
+      featuredImage: '/images/NBA.png',
       filesource: '../../blog/installing-nodejs-on-your-device.md',
       createDay: "20",
       createMonth: 'February',
@@ -353,8 +377,8 @@ const database = {
     },
     {
       id: 3,
-      title: 'UI/UX design starter with Adobe XD.',
-      featuredImage: '/images/blog-image-3.jpg',
+      title: 'National Hockey League',
+      featuredImage: '/images/NHL.png',
       filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
       createDay: "20",
       createMonth: 'February',
@@ -362,8 +386,8 @@ const database = {
     },
     {
       id: 4,
-      title: 'Boost your post for increasing sales.',
-      featuredImage: '/images/blog-image-4.jpg',
+      title: 'Cal Fire',
+      featuredImage: '/images/calfire.png',
       filesource: '../../blog/boost-your-post-for-increasing-sales.md',
       createDay: "20",
       createMonth: 'February',
@@ -371,8 +395,8 @@ const database = {
     },
     {
       id: 5,
-      title: 'Difference between GatsbyJS & NextJS.',
-      featuredImage: '/images/blog-image-5.jpg',
+      title: 'California Teachers Association',
+      featuredImage: '/images/CTA.png',
       filesource: '../../blog/difference-between-gatsbyjs-and-nextjs.md',
       createDay: "20",
       createMonth: 'February',
@@ -380,8 +404,8 @@ const database = {
     },
     {
       id: 6,
-      title: 'How to choose javascript framework for project.',
-      featuredImage: '/images/blog-image-6.jpg',
+      title: 'NASA Ames Research Center',
+      featuredImage: '/images/nasa.png',
       filesource: '../../blog/how-to-choose-javascript-framework-for-project.md',
       createDay: "20",
       createMonth: 'February',
@@ -389,8 +413,8 @@ const database = {
     },
     {
       id: 7,
-      title: 'Web automation with python language.',
-      featuredImage: '/images/blog-image-7.jpg',
+      title: 'Sony Interactive',
+      featuredImage: '/images/sony.png',
       filesource: '../../blog/web-automation-with-python-language.md',
       createDay: "20",
       createMonth: 'February',
@@ -398,8 +422,8 @@ const database = {
     },
     {
       id: 8,
-      title: 'Time to use latest technology for creating a website.',
-      featuredImage: '/images/blog-image-8.jpg',
+      title: 'Pixar',
+      featuredImage: '/images/pixar.png',
       filesource: '../../blog/time-to-use-latest-technology-for-creating-a-website.md',
       createDay: "20",
       createMonth: 'February',
@@ -407,8 +431,8 @@ const database = {
     },
     {
       id: 9,
-      title: 'Think out of the box.',
-      featuredImage: '/images/blog-image-9.jpg',
+      title: '2K Games',
+      featuredImage: '/images/2k.png',
       filesource: '../../blog/think-out-of-the-box.md',
       createDay: "20",
       createMonth: 'February',
@@ -416,8 +440,8 @@ const database = {
     },
     {
       id: 10,
-      title: 'Trending designs in 2020.',
-      featuredImage: '/images/blog-image-1.jpg',
+      title: 'Big Belly',
+      featuredImage: '/images/bigbelly.png',
       filesource: '../../blog/trending-designs-in-2020.md',
       createDay: "20",
       createMonth: 'February',
@@ -425,8 +449,8 @@ const database = {
     },
     {
       id: 11,
-      title: 'How to get 10k instagram followers?',
-      featuredImage: '/images/blog-image-2.jpg',
+      title: 'Seagate',
+      featuredImage: '/images/seagate.png',
       filesource: '../../blog/how-to-get-10k-instagram-followers.md',
       createDay: "20",
       createMonth: 'February',
@@ -434,8 +458,8 @@ const database = {
     },
     {
       id: 12,
-      title: 'What NodeJS can do?',
-      featuredImage: '/images/blog-image-3.jpg',
+      title: 'Amazon Corporate Housing',
+      featuredImage: '/images/amazon.png',
       filesource: '../../blog/what-nodejs-can-do.md',
       createDay: "20",
       createMonth: 'February',
@@ -443,8 +467,8 @@ const database = {
     },
     {
       id: 13,
-      title: 'Futures of javascript.',
-      featuredImage: '/images/blog-image-4.jpg',
+      title: 'University of California',
+      featuredImage: '/images/uc.png',
       filesource: '../../blog/future-of-javascript.md',
       createDay: "20",
       createMonth: 'February',
@@ -452,8 +476,8 @@ const database = {
     },
     {
       id: 14,
-      title: 'Popular javascript library in 2020.',
-      featuredImage: '/images/blog-image-5.jpg',
+      title: 'United States Armed Forces',
+      featuredImage: '/images/USArmedF.png',
       filesource: '../../blog/popular-javascript-library-in-2020.md',
       createDay: "20",
       createMonth: 'February',
@@ -461,8 +485,8 @@ const database = {
     },
     {
       id: 15,
-      title: 'Promrammers must read books.',
-      featuredImage: '/images/blog-image-6.jpg',
+      title: 'PG&E',
+      featuredImage: '/images/PG&E.png',
       filesource: '../../blog/programmers-must-read-books.md',
       createDay: "20",
       createMonth: 'February',

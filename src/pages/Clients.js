@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import BlogsView from "../components/BlogsView";
 import Pagination from "../components/Pagination";
 
-function Blogs() {
+function Clients() {
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(6);
@@ -33,7 +33,7 @@ function Blogs() {
     <Layout>
       <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
-          <Sectiontitle title="Recent Blogs" />
+          <Sectiontitle title="Recent Clients" />
           <BlogsView blogs={currentPosts} />
           {!(posts.length > postsPerPage) ? null : (
             <Pagination
@@ -50,4 +50,4 @@ function Blogs() {
   );
 }
 
-export default Blogs;
+export default Clients;
