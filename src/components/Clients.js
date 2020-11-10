@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Blog(props) {
+function Clients(props) {
   const { id, featuredImage, title, createDay, createMonth, filesource } = props.data;
   const getShortMonth = month => {
     return month.slice(0, 3);
@@ -34,4 +34,4 @@ function Blog(props) {
   );
 }
 
-export default Blog;
+export default Clients;
