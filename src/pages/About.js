@@ -65,7 +65,6 @@ function About() {
                 <img
                   src={information.aboutImage}
                   alt="about"
-                  onClick={() => handleToggler(!toggler)}
                 />
                 <FsLightbox
                   toggler={toggler}
