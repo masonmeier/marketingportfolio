@@ -5,11 +5,9 @@ const database = {
     name: 'Mason Meier',
     aboutContent: "I am a marketing manager. I can provide targeted growth campaigns, comprehensive business practice analysis and excellent customer conversion rates.",
     age: 25,
-    phone: '916-812-7103',
     nationality: 'American',
     language: 'English',
     email: 'digitalmasonry2020@gmail.com',
-    address: '2609 Stonecreek Drive #16 Sacramento, CA 95833',
     freelanceStatus: 'Available',
     socialLinks: {
       facebook: '',
@@ -38,8 +36,8 @@ const database = {
     },
     {
       title: "Business Modernization",
-      icon: 'browser',
-      details: "I can produce applications to both increase day to day productivity and increase client interaction with clean, easy to use applications."
+      icon: 'baloon',
+      details: "Increases productivity and client interaction by producing clean, easy to use applications."
     }
   ],
   reviews: [
